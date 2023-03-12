@@ -1,12 +1,15 @@
 import Header from "../components/Header"
-const Projects = () => {
+import { useLoaderData } from "react-router-dom"
+import Project from "../components/Project"
+const Projects = (props) => {
+    const projects = useLoaderData()
     return (
         <div>
             <div>
                 {Header()}
             </div>
             <div>
-            <h1>This is the Projects page</h1>
+                {projects.map(project => <Project key={project.id} project={project}/>)}
             </div>
         </div>
     )
