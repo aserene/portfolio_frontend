@@ -6,7 +6,9 @@ const Home = () => {
                 {Header()}
             </div>
             <div>
-            <h1>This is the Home page</h1>
+            <h1>Athena HooSang</h1>
+            <h3>Full-Stack developer based in California</h3>
+            <img src={"/images/headshot.png"}/>
             </div>
         </div>
     )
