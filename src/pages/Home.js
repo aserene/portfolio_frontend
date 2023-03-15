@@ -8,7 +8,7 @@ const Home = () => {
             <div>
             <h1>Athena HooSang</h1>
             <h3>Full-Stack developer based in California</h3>
-            <img src={"/images/headshot.png"}/>
+            <img src="../images/headshot.jpg" alt="Athena HooSang"/>
             </div>
         </div>
     )
