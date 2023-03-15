@@ -1,12 +1,12 @@
 const Header = () => {
     return (
-        <div>
-            <h1>AH</h1>
-            <a href="/">Home</a>
-            <a href="/about">About</a>
-            <a href="/projects">Projects</a>
-            <a href="https://docs.google.com/document/d/12GM3qdE2fYkHnobHP2AQ5b_g71K6X9gAcOY5uY3D0BQ/edit?usp=sharing" target="_blank">Resume</a>
-            <a href="/contact">Contact</a>
+        <div className="nav">
+            <h1 className="initials">AH</h1>
+            <a href="/"><h2>Home</h2></a>
+            <a href="/about"><h2>About</h2></a>
+            <a href="/projects"><h2>Projects</h2></a>
+            <a href="https://docs.google.com/document/d/12GM3qdE2fYkHnobHP2AQ5b_g71K6X9gAcOY5uY3D0BQ/edit?usp=sharing" target="_blank"><h2>Resume</h2></a>
+            <a href="/contact"><h2>Contact</h2></a>
         </div>
     )
 }

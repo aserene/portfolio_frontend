@@ -7,8 +7,8 @@ const Home = () => {
             </div>
             <div>
             <h1>Athena HooSang</h1>
+            <img className="headshot" src="https://i.imgur.com/BKS1s0C.jpg" alt="Athena HooSang"/>
             <h3>Full-Stack developer based in California</h3>
-            <img src="../images/headshot.jpg" alt="Athena HooSang"/>
             </div>
         </div>
     )
