@@ -42,7 +42,10 @@ code {
   display: flex;
   width:80%;
   justify-content: center;
-  margin: 3em auto;
+  margin:4em auto;
+}
+#intro{
+  padding: 1em;
 }
 #name{
   font-weight: 900;
