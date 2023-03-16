@@ -71,6 +71,33 @@ code {
 .connect-card a:hover{
   text-decoration: underline;
 }
+.project-cont{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.project-card{
+  width: 70%;
+  border: 5px dotted black;
+  margin: 1em 0;
+  text-align: center;
+
+}
+.project-card img{
+  max-width: 80%;
+  border-radius: 10px;
+}
+#view{
+  text-decoration: none;
+  color: black;
+}
+#view:hover{
+  text-decoration: underline;
+}
+#description{
+  max-width: 70%;
+  text-align: center;
+}
 .footer{
   position: fixed;
   left: 0;
@@ -78,7 +105,7 @@ code {
   width: 100%;
   text-align: center;
   background-color: white;
-  padding: 3em 0;
+  padding: 2em 0;
 }
 #in, #git{
   max-height:4em;
