@@ -105,8 +105,8 @@ code {
   width: 100%;
   text-align: center;
   background-color: white;
-  padding: 2em 0;
+  padding: 1em 0;
 }
 #in, #git{
-  max-height:4em;
+  max-height:2em;
 }
