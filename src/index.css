@@ -50,6 +50,27 @@ code {
 #name{
   font-weight: 900;
 }
+.about-me{
+  margin: 4em auto;
+  font-family: 'Playfair Display', serif;
+  padding: 1em;
+  border: 5px dotted black;
+  max-width: 70%;
+}
+.connect-card{
+  border: 5px dotted black;
+  max-width: 40%;
+  text-align: center;
+  margin: 5vh auto;
+  padding: 1em;
+}
+.connect-card a{
+  text-decoration: none;
+  color:black;
+}
+.connect-card a:hover{
+  text-decoration: underline;
+}
 .footer{
   position: fixed;
   left: 0;
