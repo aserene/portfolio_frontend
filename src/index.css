@@ -35,8 +35,8 @@ code {
   max-height:3em;
   margin:auto;
 }
-.headshot{
-  max-width: 40%;
+#headshot{
+  max-height: 40vh;
 }
 .home-cont{
   display: flex;
