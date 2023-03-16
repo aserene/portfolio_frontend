@@ -1,4 +1,5 @@
 import Header from "../components/Header"
+import Footer from "../components/Footer"
 const About = () => {
     return (
         <div>
@@ -11,6 +12,7 @@ const About = () => {
 
             <h2>Skilled in: JavaScript, HTML, CSS, Python, React, Vue, Node.js, Express.js, MongoDB, Mongoose, DjangoDB, PostgreSQL, RESTful routes, JSON, JQuery</h2>
             </div>
+            {Footer()}
         </div>
     )
 }

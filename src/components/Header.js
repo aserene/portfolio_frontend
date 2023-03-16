@@ -1,7 +1,10 @@
 const Header = () => {
     return (
         <div className="nav">
-            <h1 className="initials">AH</h1>
+            <div className="logo">
+                <h1 className="initials">AH</h1>
+                <img className="tag"src="https://i.imgur.com/NH14NTY.png" alt="dev tag"></img>
+            </div>
             <a href="/"><h2>Home</h2></a>
             <a href="/about"><h2>About</h2></a>
             <a href="/projects"><h2>Projects</h2></a>

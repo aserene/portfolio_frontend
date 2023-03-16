@@ -3,6 +3,8 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, 'Oxygen';
   -moz-osx-font-smoothing: grayscale;
   font-family: "Roboto";
+  background: rgb(251,235,63);
+background: radial-gradient(circle, rgba(251,235,63,0.623686974789916) 0%, rgba(252,70,107,0.7105217086834734) 100%);
 }
 
 code {
@@ -13,6 +15,7 @@ code {
   margin:0;
   display: flex;
   justify-content: space-evenly;
+  background-color: white;
 }
 /* .initials{
   margin:
@@ -22,6 +25,37 @@ code {
   color:black;
   
 }
+.nav h2{
+  padding-top: 5px;
+}
+.logo{
+  display:flex;
+}
+.tag{
+  max-height:3em;
+  margin:auto;
+}
 .headshot{
   max-width: 40%;
+}
+.home-cont{
+  display: flex;
+  width:80%;
+  justify-content: center;
+  margin: 3em auto;
+}
+#name{
+  font-weight: 900;
+}
+.footer{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: white;
+  padding: 3em 0;
+}
+#in, #git{
+  max-height:4em;
 }
