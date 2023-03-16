@@ -23,7 +23,10 @@ code {
 .nav a{
   text-decoration: none;
   color:black;
-  
+  transition: 0.3s;
+}
+.nav a:hover{
+  color: rgb(14,175,226)
 }
 .nav h2{
   padding-top: 5px;
@@ -51,7 +54,7 @@ code {
   font-weight: 900;
 }
 .about-me{
-  margin: 4em auto;
+  margin: 4em auto 6em auto;
   font-family: 'Playfair Display', serif;
   padding: 1em;
   border: 5px dotted black;
