@@ -93,13 +93,24 @@ code {
 #view{
   text-decoration: none;
   color: black;
+  border: 2px solid black;
+  margin: 0;
+  padding: 1em;
+  width: 15%;
+  border-radius: 25px;;
 }
 #view:hover{
-  text-decoration: underline;
+  color: white;
+  border: 2px solid white;
 }
-#description{
-  max-width: 70%;
-  text-align: center;
+#desc {
+  text-align: left;
+  margin: auto;
+  max-width: 70%
+}
+.buttons{
+  display: flex;
+  justify-content: space-evenly;
 }
 .footer{
   position: fixed;
