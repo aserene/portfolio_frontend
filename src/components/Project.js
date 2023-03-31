@@ -1,7 +1,7 @@
 const Project = (props) => {
     const project = props.project
     return (
-        <div>
+        <div id="page-display">
             <h1>{project.title}</h1>
             <img src={project.img} alt={`Screenshot of ${project.title}`}/>
             <div id="desc">

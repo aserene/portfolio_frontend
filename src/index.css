@@ -121,6 +121,9 @@ code {
   background-color: white;
   padding: 1em 0;
 }
+#page-display{
+  margin-bottom: 5em;
+}
 #in, #git{
   max-height:2em;
 }
